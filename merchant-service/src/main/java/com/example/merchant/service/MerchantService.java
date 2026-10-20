@@ -20,7 +20,7 @@ public class MerchantService {
         merchant.setStatus("Pending_Kyc");
         //set creation date
         merchant.setCreatedAt(LocalDateTime.now());
-
+        System.out.println("Hey i am Rajib");
         return merchentRepository.save(merchant);
     }
 }
